@@ -39,7 +39,7 @@
           :autoplay="{ delay: 2500, disableOnInteraction: false }"
         >
           <swiper-slide>
-            <img src="/frontPage/NewProduct-beautyblender.png" alt="" />
+            <img src="@/assets/images/NewProduct-beautyblender.png" alt="" />
           </swiper-slide>
           <swiper-slide>
             <img src="/frontPage/NewProduct-blush.png" alt="" />

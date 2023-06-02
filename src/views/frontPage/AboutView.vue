@@ -42,7 +42,7 @@
   </section>
   <section
     class="about-banner2 position-relative"
-    style="background-image: url(/frontPage/about-banner2.jpg)"
+    style="background-image: url(../frontPage/about-banner2.jpg)"
   >
     <div class="container h-100">
       <div class="d-flex h-100 align-items-center justify-content-center">
