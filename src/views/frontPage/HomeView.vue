@@ -1,7 +1,7 @@
 <template>
   <section
     class="banner position-relative"
-    style="background-image: url(./src/assets/images/index-banner.jpg)"
+    style="background-image: url(../assets/images/index-banner.jpg)"
   >
     <div class="container h-100">
       <div class="row h-100 align-items-center">
