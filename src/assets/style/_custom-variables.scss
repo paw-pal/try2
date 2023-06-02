@@ -1,0 +1,18 @@
+$max:10;
+@for $i from 1 through $max{
+    .z-index-#{$i}{
+        z-index:$i;
+    }
+}
+
+// @mixin pad {
+//     @media screen and (max-width:992px) {
+//         @content
+//     }
+// };
+
+// @mixin mobile {
+//     @media screen and (max-width:767px) {
+//         @content
+//     }
+// };

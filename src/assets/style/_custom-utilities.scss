@@ -1,0 +1,84 @@
+.test-wahaha{
+    color:aqua;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.cursor-notAllowed{
+    cursor: not-allowed;
+}
+
+.banner {
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    @media screen and (min-width: 767px) {
+      height: 549px;
+      background-position: center -200px;
+      background-size: unset;
+    }
+  }
+
+.section-lace::after{
+content: '';
+  position: absolute;
+  width: 100%;
+  height: 28px;
+  background-size: 33px 28px;
+  background-repeat: repeat-x;
+}
+
+.title{
+    margin-bottom: 32px;
+    &::before,
+    &::after{
+        content:'';
+        display: inline-block;
+        width: 80px;
+        height: 20px;
+        background-size: cover;
+        margin-right: 16px;
+        @media screen and (min-width: 767px) {
+           width: 100px;
+           height: 25px;
+           margin-right: 24px;
+          }
+    }
+}
+
+
+
+.title::after{
+    
+    transform: scaleX(-1);
+}
+
+.title2{
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+    &::before{
+        content:'';
+        display: inline-block;
+        background-image: url(/titleDecoration2.png);
+        background-size: cover;
+        width: 36px;
+        height: 34px;
+        margin-right: 24px;
+    }
+  }
+
+  .flex-direction-row-reverse{
+    flex-direction: row-reverse;
+  }
