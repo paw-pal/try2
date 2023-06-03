@@ -42,7 +42,7 @@
             <img src="@/assets/images/NewProduct-beautyblender.png" alt="" />
           </swiper-slide>
           <swiper-slide>
-            <img src="/frontPage/NewProduct-blush.png" alt="" />
+            <img src="../../assets/images/NewProduct-blush.png" alt="" />
           </swiper-slide>
           <div class="swiper-button-prev"><i class="bi bi-chevron-left fs-2 text-primary"></i></div>
           <div class="swiper-button-next">
@@ -59,10 +59,7 @@
       <div class="row justify-content-center">
         <div class="col-8 col-sm-6 col-lg-4">
           <div
-            class="categoryItem rounded-circle position-relative overflow-hidden mb-5"
-            style="
-              background: #fff url(/frontPage/icon-cosmetic-base.png) no-repeat center / 90px 188px;
-            "
+            class="categoryItem icon-cosmetic-base rounded-circle position-relative overflow-hidden mb-5"
           >
            <a to="/products" class="position-absolute w-100 h-100 cursor-pointer z-index-2" @click.prevent="gotoProducts('底妝')"></a>
             <h3 class="text-white text-center position-relative z-index-1">底妝</h3>
@@ -71,10 +68,7 @@
         </div>
         <div class="col-8 col-sm-6 col-lg-4">
           <div
-            class="categoryItem rounded-circle position-relative overflow-hidden mb-5"
-            style="
-              background: #fff url(/frontPage/icon-cosmetic-eyebrow.png) no-repeat center / 180px;
-            "
+            class="categoryItem icon-cosmetic-eyebrow rounded-circle position-relative overflow-hidden mb-5"
           >
          <a to="/products" class="position-absolute w-100 h-100 cursor-pointer z-index-2" @click.prevent="gotoProducts('眉彩')"></a>
             <h3 class="text-white text-center position-relative z-index-1">眉彩</h3>
@@ -332,6 +326,14 @@ h1{
     &:hover::before {
       top: 0;
     }
+  }
+
+  .icon-cosmetic-base{
+    background:#fff url(@/assets/images/icon-cosmetic-base.png) no-repeat center / 90px 188px;
+  }
+
+  .icon-cosmetic-eyebrow{
+    background: #fff url(../..//assets/images/icon-cosmetic-eyebrow.png) no-repeat center / 180px;
   }
 }
 
