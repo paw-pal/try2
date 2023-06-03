@@ -1,0 +1,1 @@
+import{_ as o,r as t,o as r,c as s,b as a,F as c,a as n}from"./index-46b816ce.js";const _={},l=n("h2",{class:"mt-10"},"購物車版型",-1);function m(i,d){const e=t("router-view");return r(),s(c,null,[l,a(e)],64)}const p=o(_,[["render",m]]);export{p as default};
